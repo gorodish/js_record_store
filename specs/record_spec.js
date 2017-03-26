@@ -18,7 +18,7 @@ describe("Inventory", function(){
   });
   it("should print out record details as a string", function() {
     record1 = new Inventory("Echo & The Bunnymen", "Porcupine", 11.42);
-     assert.equal("Artist: Echo & The Bunnymen, Title: Porcupine, Price: 11.42", record1.toString());
+    assert.equal("Artist: Echo & The Bunnymen, Title: Porcupine, Price: 11.42", record1.printRecords());
    });
 });
 
