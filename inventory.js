@@ -4,4 +4,10 @@ var Inventory = function(artist, title, price){
   this.price = price;
 };
 
+Inventory.prototype = {
+  printRecords: function(){
+    return("Artist: " + this.artist + ", Title: " + this.title + ", Price: " + this.price);
+     }
+};
+
 module.exports = Inventory
